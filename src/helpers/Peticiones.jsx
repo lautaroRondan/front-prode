@@ -20,6 +20,8 @@ export const Peticion = async (url, metodo, datosGuardar = "", archivos) => {
       },
     };
 
+
+
   }
   console.log(opciones)
   const peticion = await fetch(url, opciones);

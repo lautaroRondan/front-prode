@@ -6,7 +6,7 @@ import { Peticion } from '../helpers/Peticiones';
 
 const Inicio = () => {
   const [partidos, setPartidos] = useState([]);
-  const [cargando, setCargando] = useState(true);
+  
 
   useEffect(() => {
     conseguirPartidos();
@@ -21,7 +21,6 @@ const Inicio = () => {
 
     console.log(datos)
     console.log(setPartidos)
-    setCargando(false);
   };
 
 

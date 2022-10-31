@@ -154,18 +154,27 @@ body {
   justify-content: space-around;
   margin-top: -5%;
 }
-.local{
-  color: #FFFFFF;
-}
-.visitante{
-  /* padding-left: 5%; */
-  color: #FFFFFF;
-}
-.vs{
-  /* padding-left: 10%; */
-  color: #FFFFFF;
+
+.apuestas{
+  display: flex;
+  justify-content: space-around;
 }
 
-.partidos-mundial-admin p input[type='number']{
-    margin-left: 2%;
+input[type="number"]{
+  max-width: 40%;
+}
+
+/* login */
+.containerPrincipal {
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid blue;
+    padding: 40px;
+    background-color: white;
+}
+
+.containerLogin{
+  text-align: center;
 }
